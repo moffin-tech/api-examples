@@ -10,7 +10,7 @@ const client = Axios.create({
 })
 
 async function start () {
-  const { data: profile } = await client.post('/profile', {
+  const { data: profile } = await client.post('/profiles', {
     accountType: 'PF',
     email: 'test-dev@moffin.mx',
     firstName: 'UNO',
@@ -29,6 +29,11 @@ async function start () {
   const { data: serviceQueries } = await client.post(`/profiles/${profile.id}/query`, {
     prospectorPF: true
   })
-  const [prospectorRequest] = serviceQueries.results
-  console.log('Prospector request', serviceQuery)
+  const [prospectorQuery] = serviceQueries.results
+  console.log('Prospector report:', prospectorQuery.response)
 }
+
+console.log('Executing request.')
+start()
+  .then(() => console.log('Request executed succesfully.'))
+  .catch(console.error)
