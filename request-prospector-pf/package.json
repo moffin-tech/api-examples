@@ -1,0 +1,9 @@
+{
+  "name": "request-prospector-pf",
+  "version": "1.0.0",
+  "description": "Example of how to request a prospector PF report from credit bureau",
+  "main": "index.js",
+  "author": "Victor Diaz",
+  "license": "MIT",
+  "private": true
+}
