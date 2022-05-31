@@ -31,6 +31,7 @@ async function start () {
   })
   const [prospectorQuery] = serviceQueries.results
   console.log('Prospector report:', prospectorQuery.response)
+  console.log('Score', prospectorQuery.response.json.value)
 }
 
 console.log('Executing request.')
