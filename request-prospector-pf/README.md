@@ -79,12 +79,12 @@ const { data: serviceQueries } = await client.post(`/profiles/${profile.id}/quer
 })
 const [prospectorQuery] = serviceQueries.results
 console.log('Prospector report:', prospectorQuery.response)
-console.log('Score', prospectorQuery.response.json.value)
+console.log('Score', prospectorQuery.response.json.score.value)
 ```
 
 The service response should look something like this:
 ```json
-[{
+{
   "intlQuery": "INTL12fd85dcbf-7bc0-4ac1-a403-5107MX0000**ICCMX000000000SP01     0000000PN06PRUEBA0010PROSPECTOR0203UNO0408010119800510PRPU8001010802MX1602MXPA14JAIME BALMES 80111LOS MORALES0312CD DE MEXICO0404CDMX0505115101302MXES05002440002**",
   "intl": "INTL12fd85dcbf-7bc0-4ac1-a403-5MX0000**********10PN06PRUEBA0010PROSPECTOR0203UNO0408010119800510PRPU8001010802MX1602MXPA14JAIME BALMES 80111LOS MORALES0312CD DE MEXICO0404CDMX0505115101302MXSC08BC SCORE000300701040711020209ES0500252001020174669690102**\u0013",
   "json": {
@@ -127,7 +127,7 @@ The service response should look something like this:
       "reservedUse2": "0"
     }
   }
-}]
+}
 ```
 
 The most relevant information is inside the variable
