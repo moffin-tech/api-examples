@@ -1,0 +1,14 @@
+{
+  "name": "request-forms",
+  "version": "1.0.0",
+  "description": "Example of how to use the Form API",
+  "main": "index.js",
+  "author": "Elohim Falcón",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1",
+    "prompt-sync": "^4.2.0"
+  }
+}
