@@ -29,7 +29,7 @@ Then you can configure the token as is show in this example.
 const client = Axios.create({
   baseURL: 'https://sandbox.moffin.mx/api/v1',
   headers: {
-  'Authorization': 'Token ' + process.env.API_TOKEN
+    'Authorization': 'Token ' + process.env.API_TOKEN
   }
 })
 ```
