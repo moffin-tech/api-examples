@@ -78,6 +78,12 @@ Please contact support if you need help finding an appropiate Form Config ID for
 
 If the Form is created without issues, you'll get the form ID back, we will use that ID for the remaining requests.
 
+```js
+{
+  form: formId
+}
+```
+
 
 ### Update a Form
 This endpoint uses PATCH to update an existing form (before submission), you can use it to provide edit functions in your app.
@@ -105,7 +111,7 @@ These two endpoints send the NIP associated with a form to the applicant's email
  console.log('Email Response Body', smsData)
 ```
 
-Both Email and SMS return some data, than can be used to check if the SMS or Email was sent without issues, as well as the remaining attempts for that code. Keep in mind that our API only allows sending one message every 2 minutes, so this endpoint may fail if you use it multiple times for the same form.
+Both Email and SMS return some data, that can be used to check if the SMS or Email was sent without issues, as well as the remaining attempts for that code. Keep in mind that our API only allows sending one message every 2 minutes, so this endpoint may fail if you use it multiple times for the same form.
 
 ```json5
 // SMS Response Body 
@@ -125,8 +131,8 @@ Both Email and SMS return some data, than can be used to check if the SMS or Ema
 }
 ```
 
-### Verify NIP
-You can use this endpoint to verify the NIP sent by the previous endpoints, keep in mind this endpoint will return 204 if the verification is succesful, not 200.
+### Validate NIP
+You can use this endpoint to validate the NIP sent by the previous endpoints, keep in mind this endpoint will return 204 if the verification is succesful, not 200.
 
 ```js
  await client.post(`/form/nip/validate/${form.formId}`, {
@@ -135,10 +141,14 @@ You can use this endpoint to verify the NIP sent by the previous endpoints, keep
 ```
 
 ### Submit the Form
-Once the form has been populated with the correct information, and the it has been verified, you can submit the form to our system using this endpoint. Make sure to request all the required fields when creating the form (provided in the Create Form example).
+Once the form has been populated with the correct information, and that it has been verified, you can submit the form to our system using this endpoint. Make sure to request all the required fields when creating the form (provided in the Create Form example).
 
 ```js
  await client.post(`/form/submit/${form.formId}`, {
     validateNIPAuthentication: true // Ensure the NIP was validated
  })
 ```
+
+If you have built your own solution to validate NIP outside Moffin, 
+you can set the flag `validateNIPAuthentication` as `false` to disable the validation. If you set this flag as `true`, 
+we will check if at least the phone number or email has been validated before the form submission, if neither is validated we will return a `403` error

@@ -2,6 +2,7 @@ const Axios = require('axios')
 const prompt = require('prompt-sync')()
 require('dotenv').config()
 
+const YOUR_PHONE = "" // Replace your phone here
 const client = Axios.create({
     baseURL: 'https://sandbox.moffin.mx/api/v1',
     headers: {
@@ -11,12 +12,15 @@ const client = Axios.create({
 })
 
 async function start() {
+    if (!YOUR_PHONE) {
+        throw new Error("You must set YOUR_PHONE in index.js to run these examples")
+    }
     const {data: form} = await client.post('/form/1', {
         accountType: 'PF',
         loanAmount: '10000',
         email: 'test-dev@moffin.mx',
         firstName: 'Prueba',
-        phone: "+52 <Your phone number here>", // Phone number to use
+        phone: '+52' + YOUR_PHONE, // Phone number to use
         rfc: 'PRPU800101111',
         curp: 'PETJ970221HJCRRN09',
         birthdate: '1997-01-01',
