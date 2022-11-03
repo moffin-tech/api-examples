@@ -15,7 +15,13 @@ async function start() {
     if (!YOUR_PHONE) {
         throw new Error("You must set YOUR_PHONE in index.js to run these examples")
     }
-    const {data: form} = await client.post('/form/1', {
+    // Form Configs
+    const {data: formConfigs} = await client.get('/formconfigs')
+    console.log('These are the Form Config associated with your account for each Form Template')
+    console.table(formConfigs.results)
+    const formConfigId = 1
+
+    const {data: form} = await client.post(`/form/${formConfigId}`, {
         accountType: 'PF',
         loanAmount: '10000',
         email: 'test-dev@moffin.mx',
@@ -50,7 +56,7 @@ async function start() {
     const {data: emailData} = await client.post(`/form/nip/send-email/${form.formId}`, {
         organizationName: 'Moffin' // Name to display in the Email
     })
-    console.log('Email Response Body', smsData)
+    console.log('Email Response Body', emailData)
 
     // Validate NIP (sent by either send-sms or send-email)
     const code = prompt('Enter the received NIP: ')
