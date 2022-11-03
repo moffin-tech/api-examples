@@ -50,12 +50,20 @@ Submission should always be the last step once the form has been created and ver
 ### Create a form
 Create a new form using the provided data, keep in mind this doesn't actually submit the form or verify its data. Keep track of the Form ID for the rest of the endpoint calls.
 
-You'll need a Form Config ID, which establishes the format used for the form and some of its configuration. You'll find the Form Config ID for each form defined in your account, but for the following examples and testing in our sandbox environment, you can just use the id `1`.
+You'll need a Form Config ID, which establishes the format used for the form and some of its configuration.
+
+You can find the Form Config IDs for your account by making a GET request to `/formconfigs`, but for the following examples and testing in our sandbox environment, you can just use the id `1`.
+
+```js
+const { data: formConfigs } = await client.get('/formconfigs') 
+```
+
+You can check our documentation for more information about this endpoint at <https://moffin.mx/docs#tag/formconfigs/paths/~1api~1v1~1formconfigs/get>
 
 Please contact support if you need help finding an appropiate Form Config ID for your forms.
 
 ```js
-  const { data: form } = await client.post('/form/1', {
+  const { data: form } = await client.post(`/form/${formConfigId}`, {
     accountType: 'PF',
     loanAmount: '10000',
     email: 'test-dev@moffin.mx',
