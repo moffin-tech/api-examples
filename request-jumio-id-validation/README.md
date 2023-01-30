@@ -41,7 +41,7 @@ can send to the API in our [docs](https://moffin.mx/docs).
 
 ### Jumio API Credentials
 
-The ID validation flow is created through the jumio endpoint using either Moffin's credentials or your own Jumio credentials.
+The ID validation flow is created through the Jumio endpoint using either Moffin's credentials or your own Jumio credentials.
 
 By default, Moffin's credentials are used to access the Jumio service. However, you can also configure your own Jumio credentials to integrate with Moffin.
 
