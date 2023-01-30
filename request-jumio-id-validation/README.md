@@ -3,7 +3,7 @@
 This README contains a brief description of the content
 of the [example](./index.js).
 
-## What are Jumio ID Validation?
+## What is Jumio ID Validation?
 
 Jumio is an online identity validation platform that uses artificial intelligence and machine learning technologies to verify users' identity through their government-issued ID and selfie.
 Jumio's ID validation helps reduce fraud and improve user experience by providing a fast and secure process for verifying identity online.
