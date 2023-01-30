@@ -25,7 +25,7 @@ Go to "Configuración" > "API" > "Crear nuevo token":
 
 - [Configure token in production](https://app.moffin.mx/configuracion/api)
 
-Then you can configure the token as is show in this example.
+Then you can configure the token as is shown in this example.
 
 ```js
 const client = Axios.create({
