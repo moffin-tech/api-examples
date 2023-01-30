@@ -18,7 +18,7 @@ You can create one easily in this
 
 ### Generate an Access Token
 
-Go to the configuration panel in moffin to create an
+Go to the configuration panel in Moffin to create an
 _Access Token_.
 
 Go to "Configuración" > "API" > "Crear nuevo token":
