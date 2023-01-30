@@ -132,4 +132,10 @@ const { data: createValidationLink } = await client.post(
 const validationLink = createValidationLink.response.formURL; // https://moffin.web.amer-1.jumio.ai/web/v4/app?authorizationToken=TOKEN_RESPONSE_JUMIO&locale=es
 ```
 
+
 With this generated link, you can share it with your customers to complete the ID validation flow.
+
+![Screenshot from 2023-01-30 15-38-03](https://user-images.githubusercontent.com/73318091/215574089-d8af5258-cb96-4028-90f8-6ccfdbeadc83.png)
+![Screenshot from 2023-01-30 15-38-20](https://user-images.githubusercontent.com/73318091/215574292-29ef85f8-6ef1-4cba-a26b-2a80877ab4fa.png)
+![Screenshot from 2023-01-30 15-38-26](https://user-images.githubusercontent.com/73318091/215574392-4b9172dd-3f84-495b-a7d3-9ad4a6f92d0b.png)
+![Screenshot from 2023-01-30 15-38-38](https://user-images.githubusercontent.com/73318091/215574434-89ee19b2-2a2b-42c4-b104-f0cfe1ab2d7f.png)
