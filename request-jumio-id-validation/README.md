@@ -12,7 +12,7 @@ Jumio's ID validation helps reduce fraud and improve user experience by providin
 
 ### Create your moffin account
 
-First you will need an account in the Moffin.
+First you will need a Moffin account.
 You can create one easily in this
 [page](https://moffin.mx/sign_up).
 
