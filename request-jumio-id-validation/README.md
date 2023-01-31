@@ -12,7 +12,7 @@ Jumio's ID validation helps reduce fraud and improve user experience by providin
 
 ### Create your moffin account
 
-First you will need a Moffin account.
+First, you will need a Moffin account.
 You can create one easily in this
 [page](https://moffin.mx/sign_up).
 
@@ -41,9 +41,9 @@ can send to the API in our [docs](https://moffin.mx/docs).
 
 ### Jumio API Credentials
 
-The ID validation flow is created through the Jumio endpoint using either Moffin's credentials or your own Jumio credentials.
+The ID validation flow is created through the Jumio endpoint using either Moffin's credentials or your Jumio credentials.
 
-By default, Moffin's credentials are used to access the Jumio service. However, you can also configure your own Jumio credentials to integrate with Moffin.
+By default, Moffin's credentials are used to access the Jumio service. However, you can also configure your Jumio credentials to integrate with Moffin.
 
 If you do not have a Jumio license and do not want to use Moffin's credentials, [you can contact our sales service](https://wa.me/message/GRMVHZTTGPCGF1) or send an email to <sales@moffin.mx> and request an OEM JUMIO license to integrate with Moffin.
 
@@ -51,7 +51,7 @@ We offer the option to access the license through monthly payments.
 
 ### Configuring Credentials: Only If Not Using Moffin's
 
-Configure your Jumio OAuth2 Clients credentials, which can be found in the [customer-portal](https://customer-portal.netverify.com/), under "Settings" > "API Credentials" > "OAuth2 Clients", in order to integrate with Moffin using the `/credential/jumio` endpoint. Provide the CLIENT_ID and CLIENT_SECRET when making the request.
+Configure your Jumio OAuth2 Clients credentials, which can be found in the [customer-portal](https://customer-portal.netverify.com/), under "Settings" > "API Credentials" > "OAuth2 Clients", to integrate with Moffin using the `/credential/jumio` endpoint. Provide the CLIENT_ID and CLIENT_SECRET when making the request.
 
 ```js
 const { data: configureCredential } = await client.post("/credential/jumio", {
@@ -74,7 +74,7 @@ const { data: configureCredential } = await client.post("/credential/jumio", {
 
 You can check our documentation for more information about this endpoint at <>
 
-Please contact support if you need help finding an appropiate Jumio Config Credential for your integration.
+Please contact support if you need help finding an appropriate Jumio Config Credential for your integration.
 
 ### Create ID Validation Link
 
@@ -131,7 +131,6 @@ const { data: createValidationLink } = await client.post(
 ```js
 const validationLink = createValidationLink.response.formURL; // https://moffin.web.amer-1.jumio.ai/web/v4/app?authorizationToken=TOKEN_RESPONSE_JUMIO&locale=es
 ```
-
 
 With this generated link, you can share it with your customers to complete the ID validation flow.
 
