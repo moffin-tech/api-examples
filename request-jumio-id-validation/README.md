@@ -52,25 +52,8 @@ We offer the option to access the license through monthly payments.
 ### Configuring Credentials: Only If Not Using Moffin's
 
 Configure your Jumio OAuth2 Clients credentials, which can be found in the [customer-portal](https://customer-portal.netverify.com/), under "Settings" > "API Credentials" > "OAuth2 Clients", to integrate with Moffin using the `/credential/jumio` endpoint. Provide the CLIENT_ID and CLIENT_SECRET when making the request.
-
-```js
-const { data: configureCredential } = await client.post("/credential/jumio", {
-  user: "JUMIO_CLIENT_ID",
-  password: "JUMIO_CLIENT_SECRET",
-});
-```
-
-```js
-{
-    "id": 9999999,
-    "organizationId": 115151515151,
-    "type": "jumio",
-    "user": "999aaaaa999bbbbb9cc9d9e9fff9",
-    "metadata": null,
-    "createdAt": "2023-01-16T20:33:11.272Z",
-    "updatedAt": "2023-01-30T18:15:21.778Z"
-}
-```
+To configure your Jumio credentials visit our app at the following link https://app.moffin.mx/configuracion
+On this page you will find this section where you can enter your Jumio credentials
 
 You can check our documentation for more information about this endpoint at <>
 
