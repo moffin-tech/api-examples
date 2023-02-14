@@ -55,6 +55,9 @@ Configure your Jumio OAuth2 Clients credentials, which can be found in the [cust
 To configure your Jumio credentials visit our app at the following link https://app.moffin.mx/configuracion
 On this page you will find this section where you can enter your Jumio credentials
 
+![image](https://user-images.githubusercontent.com/73318091/218807954-ee69459f-3a21-4667-8bcd-3091cf47544d.png)
+
+
 You can check our documentation for more information about this endpoint at <>
 
 Please contact support if you need help finding an appropriate Jumio Config Credential for your integration.
@@ -118,6 +121,3 @@ const validationLink = createValidationLink.response.formURL; // https://moffin.
 With this generated link, you can share it with your customers to complete the ID validation flow.
 
 ![Screenshot from 2023-01-30 15-38-03](https://user-images.githubusercontent.com/73318091/215574089-d8af5258-cb96-4028-90f8-6ccfdbeadc83.png)
-![Screenshot from 2023-01-30 15-38-20](https://user-images.githubusercontent.com/73318091/215574292-29ef85f8-6ef1-4cba-a26b-2a80877ab4fa.png)
-![Screenshot from 2023-01-30 15-38-26](https://user-images.githubusercontent.com/73318091/215574392-4b9172dd-3f84-495b-a7d3-9ad4a6f92d0b.png)
-![Screenshot from 2023-01-30 15-38-38](https://user-images.githubusercontent.com/73318091/215574434-89ee19b2-2a2b-42c4-b104-f0cfe1ab2d7f.png)
