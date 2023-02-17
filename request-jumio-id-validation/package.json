@@ -1,0 +1,13 @@
+{
+  "name": "request-jumio-id-validation",
+  "version": "1.0.0",
+  "description": "Example of how to use the Jumio ID Validation API",
+  "main": "index.js",
+  "author": "Alan Isaac Cardozo",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1"
+  }
+}
