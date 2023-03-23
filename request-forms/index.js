@@ -19,7 +19,26 @@ async function start() {
     const {data: formConfigs} = await client.get('/formconfigs')
     console.log('These are the Form Config associated with your account for each Form Template')
     console.table(formConfigs.results)
-    const formConfigId = 1
+
+    // Create a new Form Config for this example
+    const { data: formConfig } = await client.post('/formconfigs', {
+      name: 'Form Name',
+      slug: 'form-name', // separated by hyphens
+      accountType: 'PF',
+      serviceQueries: {
+          bureauPF: true
+      },
+      configuration: {
+          isActive: true,
+          rfc: {
+            homoclave: {
+                enabled: true
+            }
+        }
+      }
+    })
+
+    const formConfigId = formConfig.id
 
     const {data: form} = await client.post(`/form/${formConfigId}`, {
         accountType: 'PF',
