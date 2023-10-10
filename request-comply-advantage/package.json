@@ -1,0 +1,13 @@
+{
+  "name": "request-comply-advantage",
+  "version": "1.0.0",
+  "description": "Example of how to request Comply advantage",
+  "main": "index.js",
+  "author": "Karely Almodovar",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "axios": "^1.5.1",
+    "dotenv": "^16.3.1"
+  }
+}
