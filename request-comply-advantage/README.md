@@ -2,13 +2,13 @@
 This README contains a brief description of [the example content](./index.js)
 
 ## What exactly is Comply Advantage?
-Comply Advantage is a tech company that creates a solution detecting and reducing fraud losses. The Comply Advantage focus is to identify and reduce the risks associated with illegal financial activities.
+Comply Advantage is a tech company that creates solutions to detect and reduce fraud and associated losses. The Comply Advantage's focus is to identify and reduce the risks associated with illegal financial activities.
 
 Comply Advantage uses advanced technologies like automatic learning and natural language process to analyze big financial data and detect abnormal or suspicious patterns. Their platform combines data from different sources, such as sanctions lists, regulatory reports, news, and social media, to give its clients a comprehensive view of potential risks.
 
 ## How can I use Comply Advantage?
 
-### Create your moffin account
+### Create your Moffin account
 First you will need an account in the Moffin Sandbox
 environment. You can create one easily in this
 [page](https://moffin.mx/sign_up).
@@ -20,7 +20,7 @@ Go to "Configuración" > "API" > "Crear nuevo token":
 * [Configure token in sandbox](https://sandbox.moffin.mx/configuracion/api)
 * [Configure token in production](https://app.moffin.mx/configuracion/api)
 
-Then you can configure the token as is show in this example.
+Then you can configure the token as is shown in this example.
 ```js
 const client = Axios.create({
   baseURL: 'https://sandbox.moffin.mx/api/v1',
@@ -30,25 +30,25 @@ const client = Axios.create({
 })
 ```
 
-You can find more information of which information you can send to the API in our [docs](https://moffin.mx/docs).
+You can find more information of what information you can send to the API in our [docs](https://moffin.mx/docs).
 
 ### Comply Advantage Globals
 
-You can configure the level of matching a profile _Fuzziness_ the accepted value can be 0 to 1.0 it could be until 2 decimals.
-A value with 0 would be an exact match, and 1 enables a wide range of variations between search terms and terms in the Comply Advantage database. By default, it is set as 1.
+You can configure the level of matching a profile _Fuzziness_. The accepted value can be 0 to 1.0, up to 2 decimals.
+A value of 0 would be an exact match, and 1 enables a wide range of variations between search terms and terms in the Comply Advantage database. By default, it is set as 1.
 
-If you already have a configured profile on Comply Advantage, you can added to your consults. This value is optional and is not set by default.
+If you already have a configured profile on Comply Advantage, you can added it to your queries. This value is optional and is not set by default.
 
 You can add your token created in your account of Comply Advantage, and easily added it in the settings page. But if you don't have a Comply Advantage account, don't worry. You can still use our account.
 
-To configure this values you can go to "Configuración" > "Integraciones" > "Comply Advantage":
+To configure these values you can go to "Configuración" > "Integraciones" > "Comply Advantage":
 * [Configure globals in sandbox](https://sandbox.moffin.mx/configuracion)
 * [Configure globals in production](https://app.moffin.mx/configuracion)
 
 
 ### Create a new Comply Advantage Blacklist report
 
-We can create a new consult to Comply Advantage uses a POST request to `query/ca-blacklist`, we allow two account types, `PF`(*Persona fisica*) or `PM`(*Persona moral*).
+We can create a new search to Comply Advantage uses a POST request to `query/ca-blacklist`, we allow two account types, `PF`(*Persona fisica*) or `PM`(*Persona moral*).
 
 Request example to PF request
 
