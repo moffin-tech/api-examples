@@ -248,174 +248,56 @@ console.log('Comply Advantage response:', CABlacklistResponse)
 
 ```output
 {
-	"id": 73,
-	"authentication": "CUSTOM",
-	"service": "ca_blacklist",
-	"status": "SUCCESS",
-	"state": {
-		"rawResponse": {
-			"client_ref": null,
-			"id": 1312796095,
-			"ref": "1685537000-icu19ZSU",
-			"searcher_id": 26000,
-			"assignee_id": 26000,
-			"filters": {
-				"country_codes": [],
-				"exact_match": false,
-				"fuzziness": 0.5,
-				"remove_deceased": 0,
-				"types": [
-					"warning",
-					"sanction"
-				]
-			},
-			"match_status": "potential_match",
-			"risk_level": "unknown",
-			"search_term": "Carlos  Moffin ",
-			"submitted_term": "Carlos  Moffin ",
-			"total_hits": 1,
-			"total_matches": 1,
-			"total_blacklist_hits": 0,
-			"created_at": "2023-05-31T20:20:13.911Z",
-			"updated_at": "2023-05-31T20:20:13.911Z",
-			"tags": [],
-			"labels": [],
-			"limit": 500,
-			"offset": 0,
-			"searcher": {
-				"id": 26000,
-				"email": "moffin@moffin.mx",
-				"name": "Moffin",
-				"phone": "0",
-				"created_at": "2023-01-01 01:43:43",
-				"user_is_active": true
-			},
-			"assignee": {
-				"id": 26000,
-				"email": "moffin@moffin.mx",
-				"name": "Moffin",
-				"phone": "0",
-				"created_at": "2023-01-01 01:43:43",
-				"user_is_active": true
-			},
-			"hits": [
-				{
-					"doc": {
-						"aka": [],
-						"created_utc": "2020-01-19T10:55:53Z",
-						"associates": [
-							{
-								"name": "Jose Moffin",
-								"association": "Uncle"
-							}
-						],
-						"entity_type": "person",
-						"fields": [
-							{
-								"locale": "en",
-								"name": "Justification",
-								"source": "swiss-seco-list",
-								"value": "Unemployed man who dinned and dashed"
-							},
-							{
-								"name": "Other Information",
-								"source": "swiss-seco-list",
-								"value": "Unemployed"
-							},
-							{
-								"name": "Date of Birth",
-								"source": "swiss-seco-list",
-								"tag": "date_of_birth",
-								"value": "2000"
-							}
-						],
-						"first_name": "Carlos",
-						"id": "MOFCAR01010102C",
-						"last_name": "Moffin",
-						"last_updated_utc": "2019-06-16T01:11:14Z",
-						"middle_names": "",
-						"media": [
-							{
-								"date": "2018-09-17T00:00:00Z",
-								"snippet": "Carlos Moffin is wanted for crimes against everything. New investigations link Carlos Moffin with every crime group in the world, as well as being responsible for everything bad.",
-								"title": "Carlos Moffin is wanted for crimes against everything",
-								"url": "https://www.moffin.mx"
-							}
-						],
-						"source_notes": {
-							"swiss-seco-list": {
-								"aml_types": [
-									"sanction"
-								],
-								"listing_ended_utc": "2020-03-03T00:00:00Z",
-								"listing_started_utc": "2018-02-27T00:00:00Z",
-								"name": "Switzerland SECO List",
-								"url": "https://moffin.mx"
-							}
-						},
-						"name": "Carlos Moffin",
-						"sources": [
-							"swiss-seco-list"
-						],
-						"types": [
-							"sanction"
-						]
-					},
-					"match_types": [
-						"name_exact",
-						"year_of_birth"
-					],
-					"match_types_details": [],
-					"score": 3.511
-				}
-			],
-			"blacklist_hits": []
-		}
-	},
-	"metadata": {
-		"clientType": "PF",
-		"reportType": "PF",
-		"query": {
-			"searchTerm": "Carlos  Moffin ",
-			"accountType": "PF"
-		}
-	},
-	"query": {
-		"searchTerm": "Carlos  Moffin ",
-		"accountType": "PF"
-	},
-	"response": {
-		"searchTerm": "Carlos  Moffin ",
-		"searchId": "1312796095",
-		"matchStatus": "potential_match",
-		"riskLevel": "unknown",
-		"resultsFound": [
-			{
-				"title": "Carlos Moffin",
-				"matched": [
-					"sanction"
-				],
-				"score": 3.511,
-				"sources": [
-					"swiss-seco-list"
-				],
-				"type": "person"
-			}
-		],
-		"totalHits": 1,
-		"totalMatches": 1,
-		"createdAt": "2023-05-31T20:20:13.911Z",
-		"updatedAt": "2023-05-31T20:20:13.911Z"
-	},
-	"requesterId": 1001,
-	"organizationId": 1,
-	"profileId": 67,
-	"formId": null,
-	"externalId": null,
-	"createdAt": "2023-05-31T20:20:13.911Z",
-	"updatedAt": "2023-05-31T20:20:13.915Z",
-	"deletedAt": null,
-	"cachedFrom": null
+  "id": 45,
+  "uuid": "1d6ad0ac-5aaa-42b4-864c-2fbca835e80f",
+  "authentication": "CUSTOM",
+  "service": "ca_blacklist",
+  "status": "SUCCESS",
+  "state": {},
+  "metadata": {
+    "clientType": "PM",
+    "reportType": "PM",
+    "query": {
+      "searchTerm": "Bad Organization",
+      "accountType": "PM"
+    }
+  },
+  "query": {
+    "searchTerm": "Bad Organization",
+    "accountType": "PM"
+  },
+  "response": {
+    "searchTerm": "Bad Organization",
+    "searchId": "1312796095",
+    "matchStatus": "potential_match",
+    "riskLevel": "unknown",
+    "resultsFound": [
+      {
+        "title": "Bad Organization",
+        "matched": [
+          "warning"
+        ],
+        "score": 0.7,
+        "sources": [
+          "russian-federation-ministry-of-justice-list-of-undesirable-foreign-and-international-non-governmental-organizations"
+        ],
+        "type": "organisation"
+      }
+    ],
+    "totalHits": 1,
+    "totalMatches": 1,
+    "createdAt": "2023-08-07T02:41:22.071Z",
+    "updatedAt": "2023-08-07T02:41:22.071Z"
+  },
+  "requesterId": 1001,
+  "organizationId": 1,
+  "profileId": 25,
+  "formId": null,
+  "externalId": null,
+  "createdAt": "2023-08-07T02:41:22.072Z",
+  "updatedAt": "2023-08-07T02:41:22.075Z",
+  "deletedAt": null,
+  "cachedFrom": null
 }
 ```
 
