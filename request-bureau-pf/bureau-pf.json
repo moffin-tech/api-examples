@@ -1,0 +1,539 @@
+{
+  "id": 107562,
+  "uuid": "2e879807-cc3e-4361-a1ba-0f27550bc9e8",
+  "authentication": "CUSTOM",
+  "service": "bureau_pf",
+  "status": "SUCCESS",
+  "state": {
+    "rawResponse": "<soapenv:Envelope xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\">\n  <soapenv:Body>\n    <ns2:consultaXMLResponse xmlns:ns2=\"http://bean.consulta.ws.bc.com/\">\n      <return>\n        <Personas>\n          <Persona>\n            <Encabezado>\n              <NumeroReferenciaOperador>36a98c3583c14258878e863a3</NumeroReferenciaOperador>\n              <ClavePais>MX</ClavePais>\n              <IdentificadorBuro>0000</IdentificadorBuro>\n              <ClaveOtorgante>**********</ClaveOtorgante>\n              <ClaveRetornoConsumidorPrincipal>1</ClaveRetornoConsumidorPrincipal>\n              <ClaveRetornoConsumidorSecundario>0</ClaveRetornoConsumidorSecundario>\n              <NumeroControlConsulta>2018224031</NumeroControlConsulta>\n            </Encabezado>\n            <Nombre>\n              <ApellidoPaterno>PRUEBA</ApellidoPaterno>\n              <ApellidoMaterno>PROSPECTOR</ApellidoMaterno>\n              <PrimerNombre>UNO</PrimerNombre>\n              <FechaNacimiento>01011980</FechaNacimiento>\n              <RFC>PRPU800101R67</RFC>\n              <Nacionalidad>MX</Nacionalidad>\n            </Nombre>\n            <Domicilios>\n              <Domicilio>\n                <Direccion1>JAIME BALMES 8</Direccion1>\n                <ColoniaPoblacion>LOS MORALES</ColoniaPoblacion>\n                <Ciudad>CD DE MEXICO</Ciudad>\n                <Estado>CDMX</Estado>\n                <CP>11510</CP>\n                <CodPais>MX</CodPais>\n                <FechaReporteDireccion>21112018</FechaReporteDireccion>\n              </Domicilio>\n            </Domicilios>\n            <Empleos/>\n            <Cuentas>\n              <Cuenta>\n                <FechaActualizacion>04042006</FechaActualizacion>\n                <NombreOtorgante>BANCO</NombreOtorgante>\n                <IndicadorTipoResponsabilidad>I</IndicadorTipoResponsabilidad>\n                <TipoCuenta>R</TipoCuenta>\n                <TipoContrato>CC</TipoContrato>\n                <ClaveUnidadMonetaria>N$</ClaveUnidadMonetaria>\n                <FrecuenciaPagos>Z</FrecuenciaPagos>\n                <MontoPagar>0</MontoPagar>\n                <FechaAperturaCuenta>21022020</FechaAperturaCuenta>\n                <FechaUltimoPago>30032006</FechaUltimoPago>\n                <FechaUltimaCompra>28032006</FechaUltimaCompra>\n                <FechaReporte>11072023</FechaReporte>\n                <ModoReportar>A</ModoReportar>\n                <UltimaFechaSaldoCero>30032006</UltimaFechaSaldoCero>\n                <CreditoMaximo>633</CreditoMaximo>\n                <SaldoActual>0+</SaldoActual>\n                <LimiteCredito>4500</LimiteCredito>\n                <SaldoVencido>0</SaldoVencido>\n                <FormaPagoActual>01</FormaPagoActual>\n                <HistoricoPagos>110</HistoricoPagos>\n                <FechaMasRecienteHistoricoPagos>28022006</FechaMasRecienteHistoricoPagos>\n                <FechaMasAntiguaHistoricoPagos>28122005</FechaMasAntiguaHistoricoPagos>\n              </Cuenta>\n              <Cuenta>\n                <FechaActualizacion>22042006</FechaActualizacion>\n                <NombreOtorgante>BANCO</NombreOtorgante>\n                <IndicadorTipoResponsabilidad>I</IndicadorTipoResponsabilidad>\n                <TipoCuenta>R</TipoCuenta>\n                <TipoContrato>CC</TipoContrato>\n                <ClaveUnidadMonetaria>N$</ClaveUnidadMonetaria>\n                <FrecuenciaPagos>Z</FrecuenciaPagos>\n                <MontoPagar>260</MontoPagar>\n                <FechaAperturaCuenta>21022020</FechaAperturaCuenta>\n                <FechaUltimoPago>23032006</FechaUltimoPago>\n                <FechaUltimaCompra>03112005</FechaUltimaCompra>\n                <FechaReporte>11072023</FechaReporte>\n                <ModoReportar>A</ModoReportar>\n                <CreditoMaximo>5689</CreditoMaximo>\n                <SaldoActual>4779+</SaldoActual>\n                <LimiteCredito>13000</LimiteCredito>\n                <SaldoVencido>0</SaldoVencido>\n                <FormaPagoActual>01</FormaPagoActual>\n                <HistoricoPagos>1111111</HistoricoPagos>\n                <FechaMasRecienteHistoricoPagos>25022006</FechaMasRecienteHistoricoPagos>\n                <FechaMasAntiguaHistoricoPagos>25082005</FechaMasAntiguaHistoricoPagos>\n                <TotalPagosReportados>008</TotalPagosReportados>\n              </Cuenta>\n              <Cuenta>\n                <FechaActualizacion>17042006</FechaActualizacion>\n                <NombreOtorgante>TIENDA COMERCIAL</NombreOtorgante>\n                <IndicadorTipoResponsabilidad>I</IndicadorTipoResponsabilidad>\n                <TipoCuenta>R</TipoCuenta>\n                <TipoContrato>CL</TipoContrato>\n                <ClaveUnidadMonetaria>N$</ClaveUnidadMonetaria>\n                <FrecuenciaPagos>Z</FrecuenciaPagos>\n                <FechaAperturaCuenta>21022020</FechaAperturaCuenta>\n                <FechaReporte>11072023</FechaReporte>\n                <ModoReportar>A</ModoReportar>\n                <UltimaFechaSaldoCero>12042006</UltimaFechaSaldoCero>\n                <LimiteCredito>12000</LimiteCredito>\n                <FormaPagoActual>01</FormaPagoActual>\n                <HistoricoPagos>11111000</HistoricoPagos>\n                <FechaMasRecienteHistoricoPagos>12032006</FechaMasRecienteHistoricoPagos>\n                <FechaMasAntiguaHistoricoPagos>12082005</FechaMasAntiguaHistoricoPagos>\n                <ClaveObservacion>IA</ClaveObservacion>\n              </Cuenta>\n              <Cuenta>\n                <FechaActualizacion>21042006</FechaActualizacion>\n                <NombreOtorgante>BANCO</NombreOtorgante>\n                <IndicadorTipoResponsabilidad>I</IndicadorTipoResponsabilidad>\n                <TipoCuenta>R</TipoCuenta>\n                <TipoContrato>CC</TipoContrato>\n                <ClaveUnidadMonetaria>N$</ClaveUnidadMonetaria>\n                <FrecuenciaPagos>Z</FrecuenciaPagos>\n                <MontoPagar>0</MontoPagar>\n                <FechaAperturaCuenta>21022020</FechaAperturaCuenta>\n                <FechaUltimoPago>23032006</FechaUltimoPago>\n                <FechaUltimaCompra>06032006</FechaUltimaCompra>\n                <FechaReporte>11072023</FechaReporte>\n                <ModoReportar>A</ModoReportar>\n                <UltimaFechaSaldoCero>17032005</UltimaFechaSaldoCero>\n                <CreditoMaximo>7818</CreditoMaximo>\n                <SaldoActual>4951+</SaldoActual>\n                <LimiteCredito>13000</LimiteCredito>\n                <SaldoVencido>0</SaldoVencido>\n                <FormaPagoActual>01</FormaPagoActual>\n                <HistoricoPagos>1111111111111</HistoricoPagos>\n                <FechaMasRecienteHistoricoPagos>28022006</FechaMasRecienteHistoricoPagos>\n                <FechaMasAntiguaHistoricoPagos>28022005</FechaMasAntiguaHistoricoPagos>\n                <TotalPagosReportados>013</TotalPagosReportados>\n              </Cuenta>\n              <Cuenta>\n                <FechaActualizacion>12042006</FechaActualizacion>\n                <NombreOtorgante>BANCO</NombreOtorgante>\n                <IndicadorTipoResponsabilidad>I</IndicadorTipoResponsabilidad>\n                <TipoCuenta>R</TipoCuenta>\n                <TipoContrato>CC</TipoContrato>\n                <ClaveUnidadMonetaria>N$</ClaveUnidadMonetaria>\n                <FrecuenciaPagos>Z</FrecuenciaPagos>\n                <MontoPagar>100</MontoPagar>\n                <FechaAperturaCuenta>21022020</FechaAperturaCuenta>\n                <FechaUltimoPago>29032006</FechaUltimoPago>\n                <FechaReporte>11072023</FechaReporte>\n                <ModoReportar>A</ModoReportar>\n                <UltimaFechaSaldoCero>30092005</UltimaFechaSaldoCero>\n                <CreditoMaximo>2690</CreditoMaximo>\n                <SaldoActual>250+</SaldoActual>\n                <LimiteCredito>4800</LimiteCredito>\n                <FormaPagoActual>01</FormaPagoActual>\n                <HistoricoPagos>111111111111111111111110</HistoricoPagos>\n                <FechaMasRecienteHistoricoPagos>28022006</FechaMasRecienteHistoricoPagos>\n                <FechaMasAntiguaHistoricoPagos>28022004</FechaMasAntiguaHistoricoPagos>\n                <TotalPagosReportados>025</TotalPagosReportados>\n              </Cuenta>\n              <Cuenta>\n                <FechaActualizacion>10042006</FechaActualizacion>\n                <NombreOtorgante>TIENDA COMERCIAL</NombreOtorgante>\n                <IndicadorTipoResponsabilidad>I</IndicadorTipoResponsabilidad>\n                <TipoCuenta>R</TipoCuenta>\n                <TipoContrato>CL</TipoContrato>\n                <ClaveUnidadMonetaria>N$</ClaveUnidadMonetaria>\n                <FrecuenciaPagos>Z</FrecuenciaPagos>\n                <MontoPagar>25</MontoPagar>\n                <FechaAperturaCuenta>21022020</FechaAperturaCuenta>\n                <FechaUltimoPago>12032006</FechaUltimoPago>\n                <FechaUltimaCompra>04122005</FechaUltimaCompra>\n                <FechaReporte>11072023</FechaReporte>\n                <ModoReportar>A</ModoReportar>\n                <UltimaFechaSaldoCero>06052004</UltimaFechaSaldoCero>\n                <CreditoMaximo>6164</CreditoMaximo>\n                <SaldoActual>773+</SaldoActual>\n                <LimiteCredito>3500</LimiteCredito>\n                <FormaPagoActual>01</FormaPagoActual>\n                <HistoricoPagos>1111111111111X1111111111</HistoricoPagos>\n                <FechaMasRecienteHistoricoPagos>28022006</FechaMasRecienteHistoricoPagos>\n                <FechaMasAntiguaHistoricoPagos>28102003</FechaMasAntiguaHistoricoPagos>\n              </Cuenta>\n              <Cuenta>\n                <FechaActualizacion>22042006</FechaActualizacion>\n                <NombreOtorgante>BANCO</NombreOtorgante>\n                <IndicadorTipoResponsabilidad>I</IndicadorTipoResponsabilidad>\n                <TipoCuenta>R</TipoCuenta>\n                <TipoContrato>CC</TipoContrato>\n                <ClaveUnidadMonetaria>N$</ClaveUnidadMonetaria>\n                <FrecuenciaPagos>Z</FrecuenciaPagos>\n                <MontoPagar>0</MontoPagar>\n                <FechaAperturaCuenta>21022020</FechaAperturaCuenta>\n                <FechaUltimoPago>16012006</FechaUltimoPago>\n                <FechaUltimaCompra>22062005</FechaUltimaCompra>\n                <FechaReporte>11072023</FechaReporte>\n                <ModoReportar>A</ModoReportar>\n                <UltimaFechaSaldoCero>16012006</UltimaFechaSaldoCero>\n                <CreditoMaximo>2162</CreditoMaximo>\n                <SaldoActual>0+</SaldoActual>\n                <LimiteCredito>2000</LimiteCredito>\n                <SaldoVencido>0</SaldoVencido>\n                <FormaPagoActual>01</FormaPagoActual>\n                <HistoricoPagos>111111111111111111111111</HistoricoPagos>\n                <FechaMasRecienteHistoricoPagos>27022006</FechaMasRecienteHistoricoPagos>\n                <FechaMasAntiguaHistoricoPagos>27112002</FechaMasAntiguaHistoricoPagos>\n                <TotalPagosReportados>039</TotalPagosReportados>\n                <TotalPagosCalificadosMOP2>01</TotalPagosCalificadosMOP2>\n              </Cuenta>\n            </Cuentas>\n            <ConsultasEfectuadas>\n              <ConsultaEfectuada>\n                <FechaConsulta>19122023</FechaConsulta>\n                <ClaveOtorgante>**********</ClaveOtorgante>\n                <NombreOtorgante>IPC</NombreOtorgante>\n                <TipoContrato>CC</TipoContrato>\n                <ImporteContrato>0</ImporteContrato>\n                <IndicadorTipoResponsabilidad>I</IndicadorTipoResponsabilidad>\n              </ConsultaEfectuada>\n              <ConsultaEfectuada>\n                <FechaConsulta>22052023</FechaConsulta>\n                <NombreOtorgante>BANCO</NombreOtorgante>\n                <TipoContrato>CC</TipoContrato>\n                <ImporteContrato>0</ImporteContrato>\n                <IndicadorTipoResponsabilidad>I</IndicadorTipoResponsabilidad>\n              </ConsultaEfectuada>\n              <ConsultaEfectuada>\n                <FechaConsulta>22052023</FechaConsulta>\n                <NombreOtorgante>BANCO</NombreOtorgante>\n                <TipoContrato>CC</TipoContrato>\n                <ImporteContrato>0</ImporteContrato>\n                <IndicadorTipoResponsabilidad>I</IndicadorTipoResponsabilidad>\n              </ConsultaEfectuada>\n              <ConsultaEfectuada>\n                <FechaConsulta>22052023</FechaConsulta>\n                <NombreOtorgante>BANCO</NombreOtorgante>\n                <TipoContrato>CC</TipoContrato>\n                <ImporteContrato>0</ImporteContrato>\n                <IndicadorTipoResponsabilidad>I</IndicadorTipoResponsabilidad>\n              </ConsultaEfectuada>\n            </ConsultasEfectuadas>\n            <ResumenReporte>\n              <ResumenReporte>\n                <FechaIngresoBD>21112018</FechaIngresoBD>\n                <NumeroMOP7>00</NumeroMOP7>\n                <NumeroMOP6>00</NumeroMOP6>\n                <NumeroMOP5>00</NumeroMOP5>\n                <NumeroMOP4>00</NumeroMOP4>\n                <NumeroMOP3>00</NumeroMOP3>\n                <NumeroMOP2>00</NumeroMOP2>\n                <NumeroMOP1>07</NumeroMOP1>\n                <NumeroMOP0>00</NumeroMOP0>\n                <NumeroMOPUR>00</NumeroMOPUR>\n                <NumeroCuentas>0007</NumeroCuentas>\n                <CuentasPagosFijosHipotecas>0000</CuentasPagosFijosHipotecas>\n                <CuentasRevolventesAbiertas>0007</CuentasRevolventesAbiertas>\n                <CuentasCerradas>0000</CuentasCerradas>\n                <CuentasNegativasActuales>0000</CuentasNegativasActuales>\n                <CuentasClavesHistoriaNegativa>0000</CuentasClavesHistoriaNegativa>\n                <CuentasDisputa>00</CuentasDisputa>\n                <NumeroSolicitudesUltimos6Meses>00</NumeroSolicitudesUltimos6Meses>\n                <NuevaDireccionReportadaUltimos60Dias>N</NuevaDireccionReportadaUltimos60Dias>\n                <MensajesAlerta>NNNNN</MensajesAlerta>\n                <ExistenciaDeclaracionesConsumidor>N</ExistenciaDeclaracionesConsumidor>\n                <TipoMoneda>MX</TipoMoneda>\n                <TotalCreditosMaximosRevolventes>25156</TotalCreditosMaximosRevolventes>\n                <TotalLimitesCreditoRevolventes>52800</TotalLimitesCreditoRevolventes>\n                <TotalSaldosActualesRevolventes>10753+</TotalSaldosActualesRevolventes>\n                <TotalSaldosVencidosRevolventes>0</TotalSaldosVencidosRevolventes>\n                <TotalPagosRevolventes>385</TotalPagosRevolventes>\n                <PctLimiteCreditoUtilizadoRevolventes>20</PctLimiteCreditoUtilizadoRevolventes>\n                <TotalCreditosMaximosPagosFijos>0</TotalCreditosMaximosPagosFijos>\n                <TotalSaldosActualesPagosFijos>0+</TotalSaldosActualesPagosFijos>\n                <TotalSaldosVencidosPagosFijos>0</TotalSaldosVencidosPagosFijos>\n                <TotalPagosPagosFijos>0</TotalPagosPagosFijos>\n                <NumeroMOP96>00</NumeroMOP96>\n                <NumeroMOP97>00</NumeroMOP97>\n                <NumeroMOP99>00</NumeroMOP99>\n                <FechaAperturaCuentaMasAntigua>21022020</FechaAperturaCuentaMasAntigua>\n                <FechaAperturaCuentaMasReciente>21022020</FechaAperturaCuentaMasReciente>\n                <TotalSolicitudesReporte>03</TotalSolicitudesReporte>\n                <FechaSolicitudReporteMasReciente>22052023</FechaSolicitudReporteMasReciente>\n                <NumeroTotalCuentasDespachoCobranza>00</NumeroTotalCuentasDespachoCobranza>\n                <FechaAperturaCuentaMasRecienteDespachoCobranza>00000000</FechaAperturaCuentaMasRecienteDespachoCobranza>\n                <NumeroTotalSolicitudesDespachosCobranza>00</NumeroTotalSolicitudesDespachosCobranza>\n                <FechaSolicitudMasRecienteDespachoCobranza>00000000</FechaSolicitudMasRecienteDespachoCobranza>\n              </ResumenReporte>\n            </ResumenReporte>\n            <HawkAlertConsulta>\n              <HawkAlertC>\n                <FechaReporte>19122023</FechaReporte>\n                <CodigoClave>001</CodigoClave>\n                <TipoInstitucion>BURO DE CREDITO </TipoInstitucion>\n                <Mensaje>VER MENSAJES DE COINCIDENCIA POR REP. DE CREDITO</Mensaje>\n              </HawkAlertC>\n            </HawkAlertConsulta>\n            <HawkAlertBD>\n              <HawkAlertBD>\n                <FechaReporte>03062021</FechaReporte>\n                <CodigoClave>980</CodigoClave>\n                <TipoInstitucion>PREVENCIONES PM </TipoInstitucion>\n                <Mensaje>DOMICILIO 1 - COINCIDENCIA DOMICILIO            </Mensaje>\n              </HawkAlertBD>\n              <HawkAlertBD>\n                <FechaReporte>03062021</FechaReporte>\n                <CodigoClave>981</CodigoClave>\n                <TipoInstitucion>PREVENCIONES PM </TipoInstitucion>\n                <Mensaje>DOMICILIO 1 - COINCIDENCIA DOMICILIO            </Mensaje>\n              </HawkAlertBD>\n              <HawkAlertBD>\n                <FechaReporte>05012015</FechaReporte>\n                <CodigoClave>980</CodigoClave>\n                <TipoInstitucion>PREVENCIONES PM </TipoInstitucion>\n                <Mensaje>DOMICILIO 1 - COINCIDENCIA DOMICILIO            </Mensaje>\n              </HawkAlertBD>\n              <HawkAlertBD>\n                <FechaReporte>13032014</FechaReporte>\n                <CodigoClave>980</CodigoClave>\n                <TipoInstitucion>PREVENCIONES PM </TipoInstitucion>\n                <Mensaje>DOMICILIO 1 - COINCIDENCIA DOMICILIO            </Mensaje>\n              </HawkAlertBD>\n              <HawkAlertBD>\n                <FechaReporte>07062021</FechaReporte>\n                <CodigoClave>981</CodigoClave>\n                <TipoInstitucion>PREVENCIONES PM </TipoInstitucion>\n                <Mensaje>DOMICILIO 1 - COINCIDENCIA DOMICILIO            </Mensaje>\n              </HawkAlertBD>\n              <HawkAlertBD>\n                <FechaReporte>02022021</FechaReporte>\n                <CodigoClave>981</CodigoClave>\n                <TipoInstitucion>PREVENCIONES PM </TipoInstitucion>\n                <Mensaje>DOMICILIO 1 - COINCIDENCIA DOMICILIO            </Mensaje>\n              </HawkAlertBD>\n              <HawkAlertBD>\n                <FechaReporte>03062021</FechaReporte>\n                <CodigoClave>980</CodigoClave>\n                <TipoInstitucion>PREVENCIONES PM </TipoInstitucion>\n                <Mensaje>DOMICILIO 1 - COINCIDENCIA DOMICILIO            </Mensaje>\n              </HawkAlertBD>\n              <HawkAlertBD>\n                <FechaReporte>01012016</FechaReporte>\n                <CodigoClave>980</CodigoClave>\n                <TipoInstitucion>PREVENCIONES PM </TipoInstitucion>\n                <Mensaje>DOMICILIO 1 - COINCIDENCIA DOMICILIO            </Mensaje>\n              </HawkAlertBD>\n              <HawkAlertBD>\n                <FechaReporte>03062021</FechaReporte>\n                <CodigoClave>981</CodigoClave>\n                <TipoInstitucion>PREVENCIONES PM </TipoInstitucion>\n                <Mensaje>DOMICILIO 1 - COINCIDENCIA DOMICILIO            </Mensaje>\n              </HawkAlertBD>\n              <HawkAlertBD>\n                <FechaReporte>01012017</FechaReporte>\n                <CodigoClave>981</CodigoClave>\n                <TipoInstitucion>PREVENCIONES PM </TipoInstitucion>\n                <Mensaje>DOMICILIO 1 - COINCIDENCIA DOMICILIO            </Mensaje>\n              </HawkAlertBD>\n              <HawkAlertBD>\n                <FechaReporte>11122017</FechaReporte>\n                <CodigoClave>981</CodigoClave>\n                <TipoInstitucion>PREVENCIONES PM </TipoInstitucion>\n                <Mensaje>DOMICILIO 1 - COINCIDENCIA DOMICILIO            </Mensaje>\n              </HawkAlertBD>\n              <HawkAlertBD>\n                <FechaReporte>02012017</FechaReporte>\n                <CodigoClave>980</CodigoClave>\n                <TipoInstitucion>PREVENCIONES PM </TipoInstitucion>\n                <Mensaje>DOMICILIO 1 - COINCIDENCIA DOMICILIO            </Mensaje>\n              </HawkAlertBD>\n              <HawkAlertBD>\n                <FechaReporte>04012018</FechaReporte>\n                <CodigoClave>980</CodigoClave>\n                <TipoInstitucion>PREVENCIONES PM </TipoInstitucion>\n                <Mensaje>DOMICILIO 1 - COINCIDENCIA DOMICILIO            </Mensaje>\n              </HawkAlertBD>\n              <HawkAlertBD>\n                <FechaReporte>05012017</FechaReporte>\n                <CodigoClave>981</CodigoClave>\n                <TipoInstitucion>PREVENCIONES PM </TipoInstitucion>\n                <Mensaje>DOMICILIO 1 - COINCIDENCIA DOMICILIO            </Mensaje>\n              </HawkAlertBD>\n              <HawkAlertBD>\n                <FechaReporte>09062021</FechaReporte>\n                <CodigoClave>980</CodigoClave>\n                <TipoInstitucion>PREVENCIONES PM </TipoInstitucion>\n                <Mensaje>DOMICILIO 1 - COINCIDENCIA DOMICILIO            </Mensaje>\n              </HawkAlertBD>\n              <HawkAlertBD>\n                <FechaReporte>15032017</FechaReporte>\n                <CodigoClave>981</CodigoClave>\n                <TipoInstitucion>PREVENCIONES PM </TipoInstitucion>\n                <Mensaje>DOMICILIO 1 - COINCIDENCIA DOMICILIO            </Mensaje>\n              </HawkAlertBD>\n              <HawkAlertBD>\n                <FechaReporte>09062021</FechaReporte>\n                <CodigoClave>981</CodigoClave>\n                <TipoInstitucion>PREVENCIONES PM </TipoInstitucion>\n                <Mensaje>DOMICILIO 1 - COINCIDENCIA DOMICILIO            </Mensaje>\n              </HawkAlertBD>\n              <HawkAlertBD>\n                <FechaReporte>04062021</FechaReporte>\n                <CodigoClave>981</CodigoClave>\n                <TipoInstitucion>PREVENCIONES PM </TipoInstitucion>\n                <Mensaje>DOMICILIO 1 - COINCIDENCIA DOMICILIO            </Mensaje>\n              </HawkAlertBD>\n              <HawkAlertBD>\n                <FechaReporte>15092016</FechaReporte>\n                <CodigoClave>981</CodigoClave>\n                <TipoInstitucion>PREVENCIONES PM </TipoInstitucion>\n                <Mensaje>DOMICILIO 1 - COINCIDENCIA DOMICILIO            </Mensaje>\n              </HawkAlertBD>\n              <HawkAlertBD>\n                <FechaReporte>04062021</FechaReporte>\n                <CodigoClave>980</CodigoClave>\n                <TipoInstitucion>PREVENCIONES PM </TipoInstitucion>\n                <Mensaje>DOMICILIO 1 - COINCIDENCIA DOMICILIO            </Mensaje>\n              </HawkAlertBD>\n              <HawkAlertBD>\n                <FechaReporte>30112017</FechaReporte>\n                <CodigoClave>980</CodigoClave>\n                <TipoInstitucion>PREVENCIONES PM </TipoInstitucion>\n                <Mensaje>DOMICILIO 1 - COINCIDENCIA DOMICILIO            </Mensaje>\n              </HawkAlertBD>\n              <HawkAlertBD>\n                <FechaReporte>08032022</FechaReporte>\n                <CodigoClave>980</CodigoClave>\n                <TipoInstitucion>PREVENCIONES PM </TipoInstitucion>\n                <Mensaje>DOMICILIO 1 - COINCIDENCIA DOMICILIO            </Mensaje>\n              </HawkAlertBD>\n              <HawkAlertBD>\n                <FechaReporte>29062022</FechaReporte>\n                <CodigoClave>980</CodigoClave>\n                <TipoInstitucion>PREVENCIONES PM </TipoInstitucion>\n                <Mensaje>DOMICILIO 1 - COINCIDENCIA DOMICILIO            </Mensaje>\n              </HawkAlertBD>\n            </HawkAlertBD>\n            <DeclaracionesCliente/>\n            <ScoreBuroCredito>\n              <ScoreBC>\n                <nombreScore>BC SCORE</nombreScore>\n                <CodigoScore>007</CodigoScore>\n                <ValorScore>0721</ValorScore>\n                <CodigoRazon>54</CodigoRazon>\n              </ScoreBC>\n            </ScoreBuroCredito>\n          </Persona>\n        </Personas>\n      </return>\n    </ns2:consultaXMLResponse>\n  </soapenv:Body>\n</soapenv:Envelope>\n",
+    "rawQuery": "<?xml version=\"1.0\" encoding=\"utf-8\"?><soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"  xmlns:tns=\"http://bean.consulta.ws.bc.com/\"><soap:Body><bean:consultaXML xmlns:bean=\"http://bean.consulta.ws.bc.com/\"><Consulta><Personas><Persona><Encabezado><ClaveUsuario>**********</ClaveUsuario><Password>********</Password><ProductoRequerido>053</ProductoRequerido><Version>13</Version><NumeroReferenciaOperador>2e879807cc3e4361a1ba0f275</NumeroReferenciaOperador><ClavePais>MX</ClavePais><IdentificadorBuro>0000</IdentificadorBuro><TipoConsulta>I</TipoConsulta><TipoContrato>CE</TipoContrato><ClaveUnidadMonetaria>MX</ClaveUnidadMonetaria><Idioma>ES</Idioma><TipoSalida>01</TipoSalida></Encabezado><Nombre><SegundoNombre></SegundoNombre><PrimerNombre>UNO</PrimerNombre><ApellidoPaterno>PRUEBA</ApellidoPaterno><ApellidoMaterno>PROSPECTOR</ApellidoMaterno><FechaNacimiento>11011950</FechaNacimiento><Nacionalidad>MX</Nacionalidad><RFC>PRPU800101</RFC><ApellidoAdicional></ApellidoAdicional></Nombre><Domicilios><Domicilio><Direccion1>JAIME BALMES 8</Direccion1><ColoniaPoblacion>LOS MORALES</ColoniaPoblacion><DelegacionMunicipio>CUAJIMALPA DE MORELOS</DelegacionMunicipio><Ciudad>CD DE MEXICO</Ciudad><Estado>CDMX</Estado><CP>11510</CP><CodPais>MX</CodPais></Domicilio></Domicilios></Persona></Personas></Consulta></bean:consultaXML></soap:Body></soap:Envelope>"
+  },
+  "metadata": {
+    "clientType": "PF",
+    "reportType": "bureau_pf",
+    "query": {
+      "rfc": null,
+      "city": "Cd de Mexico",
+      "state": "CMX",
+      "address": "Jaime Balmes 8",
+      "country": "MX",
+      "firstname": "UNO",
+      "clientType": "PF",
+      "middlename": null,
+      "postalCode": "11510",
+      "firstSurname": "PRUEBA",
+      "secondSurname": "PROSPECTOR"
+    },
+    "headers": {
+      "requestOrigin": "MIXED",
+      "responseOrigin": "MOCK"
+    }
+  },
+  "query": {
+    "Personas": {
+      "Persona": {
+        "Encabezado": {
+          "ClaveUsuario": "ZM4*******",
+          "Password": "********",
+          "ProductoRequerido": "053",
+          "Version": "13",
+          "NumeroReferenciaOperador": "2e879807cc3e4361a1ba0f275",
+          "ClavePais": "MX",
+          "IdentificadorBuro": "0000",
+          "TipoConsulta": "I",
+          "TipoContrato": "CE",
+          "ClaveUnidadMonetaria": "MX",
+          "Idioma": "ES",
+          "TipoSalida": "01"
+        },
+        "Nombre": {
+          "SegundoNombre": "",
+          "PrimerNombre": "UNO",
+          "ApellidoPaterno": "PRUEBA",
+          "ApellidoMaterno": "PROSPECTOR",
+          "FechaNacimiento": "11011950",
+          "Nacionalidad": "MX",
+          "RFC": "PRPU800101"
+        },
+        "Domicilios": {
+          "Domicilio": {
+            "Direccion1": "JAIME BALMES 8",
+            "ColoniaPoblacion": "LOS MORALES",
+            "DelegacionMunicipio": "CUAJIMALPA DE MORELOS",
+            "Ciudad": "CD DE MEXICO",
+            "Estado": "CDMX",
+            "CP": "11510",
+            "CodPais": "MX"
+          }
+        }
+      }
+    }
+  },
+  "response": {
+    "return": {
+      "Personas": {
+        "Persona": [
+          {
+            "Encabezado": {
+              "NumeroReferenciaOperador": "36a98c3583c14258878e863a3",
+              "ClavePais": "MX",
+              "IdentificadorBuro": "0000",
+              "ClaveOtorgante": "**********",
+              "ClaveRetornoConsumidorPrincipal": "1",
+              "ClaveRetornoConsumidorSecundario": "0",
+              "NumeroControlConsulta": "2018224031"
+            },
+            "Nombre": {
+              "ApellidoPaterno": "PRUEBA",
+              "ApellidoMaterno": "PROSPECTOR",
+              "PrimerNombre": "UNO",
+              "FechaNacimiento": "01011980",
+              "RFC": "PRPU800101R67",
+              "Nacionalidad": "MX"
+            },
+            "Domicilios": {
+              "Domicilio": [
+                {
+                  "Direccion1": "JAIME BALMES 8",
+                  "ColoniaPoblacion": "LOS MORALES",
+                  "Ciudad": "CD DE MEXICO",
+                  "Estado": "CDMX",
+                  "CP": "11510",
+                  "CodPais": "MX",
+                  "FechaReporteDireccion": "21112018"
+                }
+              ]
+            },
+            "Empleos": null,
+            "Cuentas": {
+              "Cuenta": [
+                {
+                  "FechaActualizacion": "04042006",
+                  "NombreOtorgante": "BANCO",
+                  "IndicadorTipoResponsabilidad": "I",
+                  "TipoCuenta": "R",
+                  "TipoContrato": "CC",
+                  "ClaveUnidadMonetaria": "N$",
+                  "FrecuenciaPagos": "Z",
+                  "MontoPagar": "0",
+                  "FechaAperturaCuenta": "21022020",
+                  "FechaUltimoPago": "30032006",
+                  "FechaUltimaCompra": "28032006",
+                  "FechaReporte": "11072023",
+                  "ModoReportar": "A",
+                  "UltimaFechaSaldoCero": "30032006",
+                  "CreditoMaximo": "633",
+                  "SaldoActual": "0+",
+                  "LimiteCredito": "4500",
+                  "SaldoVencido": "0",
+                  "FormaPagoActual": "01",
+                  "HistoricoPagos": "110",
+                  "FechaMasRecienteHistoricoPagos": "28022006",
+                  "FechaMasAntiguaHistoricoPagos": "28122005"
+                },
+                {
+                  "FechaActualizacion": "22042006",
+                  "NombreOtorgante": "BANCO",
+                  "IndicadorTipoResponsabilidad": "I",
+                  "TipoCuenta": "R",
+                  "TipoContrato": "CC",
+                  "ClaveUnidadMonetaria": "N$",
+                  "FrecuenciaPagos": "Z",
+                  "MontoPagar": "260",
+                  "FechaAperturaCuenta": "21022020",
+                  "FechaUltimoPago": "23032006",
+                  "FechaUltimaCompra": "03112005",
+                  "FechaReporte": "11072023",
+                  "ModoReportar": "A",
+                  "CreditoMaximo": "5689",
+                  "SaldoActual": "4779+",
+                  "LimiteCredito": "13000",
+                  "SaldoVencido": "0",
+                  "FormaPagoActual": "01",
+                  "HistoricoPagos": "1111111",
+                  "FechaMasRecienteHistoricoPagos": "25022006",
+                  "FechaMasAntiguaHistoricoPagos": "25082005",
+                  "TotalPagosReportados": "008"
+                },
+                {
+                  "FechaActualizacion": "17042006",
+                  "NombreOtorgante": "TIENDA COMERCIAL",
+                  "IndicadorTipoResponsabilidad": "I",
+                  "TipoCuenta": "R",
+                  "TipoContrato": "CL",
+                  "ClaveUnidadMonetaria": "N$",
+                  "FrecuenciaPagos": "Z",
+                  "FechaAperturaCuenta": "21022020",
+                  "FechaReporte": "11072023",
+                  "ModoReportar": "A",
+                  "UltimaFechaSaldoCero": "12042006",
+                  "LimiteCredito": "12000",
+                  "FormaPagoActual": "01",
+                  "HistoricoPagos": "11111000",
+                  "FechaMasRecienteHistoricoPagos": "12032006",
+                  "FechaMasAntiguaHistoricoPagos": "12082005",
+                  "ClaveObservacion": "IA"
+                },
+                {
+                  "FechaActualizacion": "21042006",
+                  "NombreOtorgante": "BANCO",
+                  "IndicadorTipoResponsabilidad": "I",
+                  "TipoCuenta": "R",
+                  "TipoContrato": "CC",
+                  "ClaveUnidadMonetaria": "N$",
+                  "FrecuenciaPagos": "Z",
+                  "MontoPagar": "0",
+                  "FechaAperturaCuenta": "21022020",
+                  "FechaUltimoPago": "23032006",
+                  "FechaUltimaCompra": "06032006",
+                  "FechaReporte": "11072023",
+                  "ModoReportar": "A",
+                  "UltimaFechaSaldoCero": "17032005",
+                  "CreditoMaximo": "7818",
+                  "SaldoActual": "4951+",
+                  "LimiteCredito": "13000",
+                  "SaldoVencido": "0",
+                  "FormaPagoActual": "01",
+                  "HistoricoPagos": "1111111111111",
+                  "FechaMasRecienteHistoricoPagos": "28022006",
+                  "FechaMasAntiguaHistoricoPagos": "28022005",
+                  "TotalPagosReportados": "013"
+                },
+                {
+                  "FechaActualizacion": "12042006",
+                  "NombreOtorgante": "BANCO",
+                  "IndicadorTipoResponsabilidad": "I",
+                  "TipoCuenta": "R",
+                  "TipoContrato": "CC",
+                  "ClaveUnidadMonetaria": "N$",
+                  "FrecuenciaPagos": "Z",
+                  "MontoPagar": "100",
+                  "FechaAperturaCuenta": "21022020",
+                  "FechaUltimoPago": "29032006",
+                  "FechaReporte": "11072023",
+                  "ModoReportar": "A",
+                  "UltimaFechaSaldoCero": "30092005",
+                  "CreditoMaximo": "2690",
+                  "SaldoActual": "250+",
+                  "LimiteCredito": "4800",
+                  "FormaPagoActual": "01",
+                  "HistoricoPagos": "111111111111111111111110",
+                  "FechaMasRecienteHistoricoPagos": "28022006",
+                  "FechaMasAntiguaHistoricoPagos": "28022004",
+                  "TotalPagosReportados": "025"
+                },
+                {
+                  "FechaActualizacion": "10042006",
+                  "NombreOtorgante": "TIENDA COMERCIAL",
+                  "IndicadorTipoResponsabilidad": "I",
+                  "TipoCuenta": "R",
+                  "TipoContrato": "CL",
+                  "ClaveUnidadMonetaria": "N$",
+                  "FrecuenciaPagos": "Z",
+                  "MontoPagar": "25",
+                  "FechaAperturaCuenta": "21022020",
+                  "FechaUltimoPago": "12032006",
+                  "FechaUltimaCompra": "04122005",
+                  "FechaReporte": "11072023",
+                  "ModoReportar": "A",
+                  "UltimaFechaSaldoCero": "06052004",
+                  "CreditoMaximo": "6164",
+                  "SaldoActual": "773+",
+                  "LimiteCredito": "3500",
+                  "FormaPagoActual": "01",
+                  "HistoricoPagos": "1111111111111X1111111111",
+                  "FechaMasRecienteHistoricoPagos": "28022006",
+                  "FechaMasAntiguaHistoricoPagos": "28102003"
+                },
+                {
+                  "FechaActualizacion": "22042006",
+                  "NombreOtorgante": "BANCO",
+                  "IndicadorTipoResponsabilidad": "I",
+                  "TipoCuenta": "R",
+                  "TipoContrato": "CC",
+                  "ClaveUnidadMonetaria": "N$",
+                  "FrecuenciaPagos": "Z",
+                  "MontoPagar": "0",
+                  "FechaAperturaCuenta": "21022020",
+                  "FechaUltimoPago": "16012006",
+                  "FechaUltimaCompra": "22062005",
+                  "FechaReporte": "11072023",
+                  "ModoReportar": "A",
+                  "UltimaFechaSaldoCero": "16012006",
+                  "CreditoMaximo": "2162",
+                  "SaldoActual": "0+",
+                  "LimiteCredito": "2000",
+                  "SaldoVencido": "0",
+                  "FormaPagoActual": "01",
+                  "HistoricoPagos": "111111111111111111111111",
+                  "FechaMasRecienteHistoricoPagos": "27022006",
+                  "FechaMasAntiguaHistoricoPagos": "27112002",
+                  "TotalPagosReportados": "039",
+                  "TotalPagosCalificadosMOP2": "01"
+                }
+              ]
+            },
+            "ConsultasEfectuadas": {
+              "ConsultaEfectuada": [
+                {
+                  "FechaConsulta": "19122023",
+                  "ClaveOtorgante": "**********",
+                  "NombreOtorgante": "IPC",
+                  "TipoContrato": "CC",
+                  "ImporteContrato": "0",
+                  "IndicadorTipoResponsabilidad": "I"
+                },
+                {
+                  "FechaConsulta": "22052023",
+                  "NombreOtorgante": "BANCO",
+                  "TipoContrato": "CC",
+                  "ImporteContrato": "0",
+                  "IndicadorTipoResponsabilidad": "I"
+                },
+                {
+                  "FechaConsulta": "22052023",
+                  "NombreOtorgante": "BANCO",
+                  "TipoContrato": "CC",
+                  "ImporteContrato": "0",
+                  "IndicadorTipoResponsabilidad": "I"
+                },
+                {
+                  "FechaConsulta": "22052023",
+                  "NombreOtorgante": "BANCO",
+                  "TipoContrato": "CC",
+                  "ImporteContrato": "0",
+                  "IndicadorTipoResponsabilidad": "I"
+                }
+              ]
+            },
+            "ResumenReporte": {
+              "ResumenReporte": [
+                {
+                  "FechaIngresoBD": "21112018",
+                  "NumeroMOP7": "00",
+                  "NumeroMOP6": "00",
+                  "NumeroMOP5": "00",
+                  "NumeroMOP4": "00",
+                  "NumeroMOP3": "00",
+                  "NumeroMOP2": "00",
+                  "NumeroMOP1": "07",
+                  "NumeroMOP0": "00",
+                  "NumeroMOPUR": "00",
+                  "NumeroCuentas": "0007",
+                  "CuentasPagosFijosHipotecas": "0000",
+                  "CuentasRevolventesAbiertas": "0007",
+                  "CuentasCerradas": "0000",
+                  "CuentasNegativasActuales": "0000",
+                  "CuentasClavesHistoriaNegativa": "0000",
+                  "CuentasDisputa": "00",
+                  "NumeroSolicitudesUltimos6Meses": "00",
+                  "NuevaDireccionReportadaUltimos60Dias": "N",
+                  "MensajesAlerta": "NNNNN",
+                  "ExistenciaDeclaracionesConsumidor": "N",
+                  "TipoMoneda": "MX",
+                  "TotalCreditosMaximosRevolventes": "25156",
+                  "TotalLimitesCreditoRevolventes": "52800",
+                  "TotalSaldosActualesRevolventes": "10753+",
+                  "TotalSaldosVencidosRevolventes": "0",
+                  "TotalPagosRevolventes": "385",
+                  "PctLimiteCreditoUtilizadoRevolventes": "20",
+                  "TotalCreditosMaximosPagosFijos": "0",
+                  "TotalSaldosActualesPagosFijos": "0+",
+                  "TotalSaldosVencidosPagosFijos": "0",
+                  "TotalPagosPagosFijos": "0",
+                  "NumeroMOP96": "00",
+                  "NumeroMOP97": "00",
+                  "NumeroMOP99": "00",
+                  "FechaAperturaCuentaMasAntigua": "21022020",
+                  "FechaAperturaCuentaMasReciente": "21022020",
+                  "TotalSolicitudesReporte": "03",
+                  "FechaSolicitudReporteMasReciente": "22052023",
+                  "NumeroTotalCuentasDespachoCobranza": "00",
+                  "FechaAperturaCuentaMasRecienteDespachoCobranza": "00000000",
+                  "NumeroTotalSolicitudesDespachosCobranza": "00",
+                  "FechaSolicitudMasRecienteDespachoCobranza": "00000000"
+                }
+              ]
+            },
+            "HawkAlertConsulta": {
+              "HawkAlertC": [
+                {
+                  "FechaReporte": "19122023",
+                  "CodigoClave": "001",
+                  "TipoInstitucion": "BURO DE CREDITO",
+                  "Mensaje": "VER MENSAJES DE COINCIDENCIA POR REP. DE CREDITO"
+                }
+              ]
+            },
+            "HawkAlertBD": {
+              "HawkAlertBD": [
+                {
+                  "FechaReporte": "03062021",
+                  "CodigoClave": "980",
+                  "TipoInstitucion": "PREVENCIONES PM",
+                  "Mensaje": "DOMICILIO 1 - COINCIDENCIA DOMICILIO"
+                },
+                {
+                  "FechaReporte": "03062021",
+                  "CodigoClave": "981",
+                  "TipoInstitucion": "PREVENCIONES PM",
+                  "Mensaje": "DOMICILIO 1 - COINCIDENCIA DOMICILIO"
+                },
+                {
+                  "FechaReporte": "05012015",
+                  "CodigoClave": "980",
+                  "TipoInstitucion": "PREVENCIONES PM",
+                  "Mensaje": "DOMICILIO 1 - COINCIDENCIA DOMICILIO"
+                },
+                {
+                  "FechaReporte": "13032014",
+                  "CodigoClave": "980",
+                  "TipoInstitucion": "PREVENCIONES PM",
+                  "Mensaje": "DOMICILIO 1 - COINCIDENCIA DOMICILIO"
+                },
+                {
+                  "FechaReporte": "07062021",
+                  "CodigoClave": "981",
+                  "TipoInstitucion": "PREVENCIONES PM",
+                  "Mensaje": "DOMICILIO 1 - COINCIDENCIA DOMICILIO"
+                },
+                {
+                  "FechaReporte": "02022021",
+                  "CodigoClave": "981",
+                  "TipoInstitucion": "PREVENCIONES PM",
+                  "Mensaje": "DOMICILIO 1 - COINCIDENCIA DOMICILIO"
+                },
+                {
+                  "FechaReporte": "03062021",
+                  "CodigoClave": "980",
+                  "TipoInstitucion": "PREVENCIONES PM",
+                  "Mensaje": "DOMICILIO 1 - COINCIDENCIA DOMICILIO"
+                },
+                {
+                  "FechaReporte": "01012016",
+                  "CodigoClave": "980",
+                  "TipoInstitucion": "PREVENCIONES PM",
+                  "Mensaje": "DOMICILIO 1 - COINCIDENCIA DOMICILIO"
+                },
+                {
+                  "FechaReporte": "03062021",
+                  "CodigoClave": "981",
+                  "TipoInstitucion": "PREVENCIONES PM",
+                  "Mensaje": "DOMICILIO 1 - COINCIDENCIA DOMICILIO"
+                },
+                {
+                  "FechaReporte": "01012017",
+                  "CodigoClave": "981",
+                  "TipoInstitucion": "PREVENCIONES PM",
+                  "Mensaje": "DOMICILIO 1 - COINCIDENCIA DOMICILIO"
+                },
+                {
+                  "FechaReporte": "11122017",
+                  "CodigoClave": "981",
+                  "TipoInstitucion": "PREVENCIONES PM",
+                  "Mensaje": "DOMICILIO 1 - COINCIDENCIA DOMICILIO"
+                },
+                {
+                  "FechaReporte": "02012017",
+                  "CodigoClave": "980",
+                  "TipoInstitucion": "PREVENCIONES PM",
+                  "Mensaje": "DOMICILIO 1 - COINCIDENCIA DOMICILIO"
+                },
+                {
+                  "FechaReporte": "04012018",
+                  "CodigoClave": "980",
+                  "TipoInstitucion": "PREVENCIONES PM",
+                  "Mensaje": "DOMICILIO 1 - COINCIDENCIA DOMICILIO"
+                },
+                {
+                  "FechaReporte": "05012017",
+                  "CodigoClave": "981",
+                  "TipoInstitucion": "PREVENCIONES PM",
+                  "Mensaje": "DOMICILIO 1 - COINCIDENCIA DOMICILIO"
+                },
+                {
+                  "FechaReporte": "09062021",
+                  "CodigoClave": "980",
+                  "TipoInstitucion": "PREVENCIONES PM",
+                  "Mensaje": "DOMICILIO 1 - COINCIDENCIA DOMICILIO"
+                },
+                {
+                  "FechaReporte": "15032017",
+                  "CodigoClave": "981",
+                  "TipoInstitucion": "PREVENCIONES PM",
+                  "Mensaje": "DOMICILIO 1 - COINCIDENCIA DOMICILIO"
+                },
+                {
+                  "FechaReporte": "09062021",
+                  "CodigoClave": "981",
+                  "TipoInstitucion": "PREVENCIONES PM",
+                  "Mensaje": "DOMICILIO 1 - COINCIDENCIA DOMICILIO"
+                },
+                {
+                  "FechaReporte": "04062021",
+                  "CodigoClave": "981",
+                  "TipoInstitucion": "PREVENCIONES PM",
+                  "Mensaje": "DOMICILIO 1 - COINCIDENCIA DOMICILIO"
+                },
+                {
+                  "FechaReporte": "15092016",
+                  "CodigoClave": "981",
+                  "TipoInstitucion": "PREVENCIONES PM",
+                  "Mensaje": "DOMICILIO 1 - COINCIDENCIA DOMICILIO"
+                },
+                {
+                  "FechaReporte": "04062021",
+                  "CodigoClave": "980",
+                  "TipoInstitucion": "PREVENCIONES PM",
+                  "Mensaje": "DOMICILIO 1 - COINCIDENCIA DOMICILIO"
+                },
+                {
+                  "FechaReporte": "30112017",
+                  "CodigoClave": "980",
+                  "TipoInstitucion": "PREVENCIONES PM",
+                  "Mensaje": "DOMICILIO 1 - COINCIDENCIA DOMICILIO"
+                },
+                {
+                  "FechaReporte": "08032022",
+                  "CodigoClave": "980",
+                  "TipoInstitucion": "PREVENCIONES PM",
+                  "Mensaje": "DOMICILIO 1 - COINCIDENCIA DOMICILIO"
+                },
+                {
+                  "FechaReporte": "29062022",
+                  "CodigoClave": "980",
+                  "TipoInstitucion": "PREVENCIONES PM",
+                  "Mensaje": "DOMICILIO 1 - COINCIDENCIA DOMICILIO"
+                }
+              ]
+            },
+            "DeclaracionesCliente": null,
+            "ScoreBuroCredito": {
+              "ScoreBC": [
+                {
+                  "nombreScore": "BC SCORE",
+                  "CodigoScore": "007",
+                  "ValorScore": "0721",
+                  "CodigoRazon": [
+                    "54"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requesterId": 1067,
+  "organizationId": 1,
+  "profileId": 14999,
+  "formId": null,
+  "externalId": null,
+  "createdAt": "2024-12-10T22:26:59.198Z",
+  "updatedAt": "2024-12-10T22:26:59.286Z",
+  "deletedAt": null,
+  "cachedFrom": null,
+  "completedAt": "2024-12-10T22:26:59.286Z",
+  "tagIds": []
+}
