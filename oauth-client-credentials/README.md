@@ -109,3 +109,35 @@ WWW-Authenticate: Bearer error="invalid_token", error_description="token audienc
 **Secret rotation is a hard cut.** There is one secret per client and no overlap window. The old secret stops working the moment the new one is issued. Plan the change.
 
 Keep `client_secret` in a safe place and do not share it. For more help, see the [Moffin docs](https://moffin.mx/docs) or contact support.
+
+## E) Language examples
+
+Set `CLIENT_ID` and `CLIENT_SECRET`. The scripts default to Sandbox (`https://sandbox.moffin.mx`). For Production set `MOFFIN_API=https://app.moffin.mx` and use the Production client.
+
+### Python (`requests`)
+
+[python-requests.py](python-requests.py)
+
+```shell
+pip install -r requirements.txt
+CLIENT_ID={{CLIENT_ID}} CLIENT_SECRET={{CLIENT_SECRET}} python python-requests.py
+```
+
+### JavaScript (`axios`)
+
+[javascript-axios.js](javascript-axios.js)
+
+```shell
+npm install
+CLIENT_ID={{CLIENT_ID}} CLIENT_SECRET={{CLIENT_SECRET}} node javascript-axios.js
+```
+
+### JavaScript (`fetch`)
+
+[javascript-fetch.js](javascript-fetch.js)
+
+Needs Node 18 or later.
+
+```shell
+CLIENT_ID={{CLIENT_ID}} CLIENT_SECRET={{CLIENT_SECRET}} node javascript-fetch.js
+```
