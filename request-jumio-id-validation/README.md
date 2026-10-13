@@ -45,7 +45,7 @@ The ID validation flow is created through the Jumio endpoint using either Moffin
 
 By default, Moffin's credentials are used to access the Jumio service. However, you can also configure your Jumio credentials to integrate with Moffin.
 
-If you do not have a Jumio license and do not want to use Moffin's credentials, [you can contact our sales service](https://wa.me/message/GRMVHZTTGPCGF1) or send an email to <sales@moffin.mx> and request an OEM JUMIO license to integrate with Moffin.
+If you do not have a Jumio license and do not want to use Moffin's credentials, [you can contact our sales service](https://wa.me/523329219268) or send an email to <sales@moffin.mx> and request an OEM JUMIO license to integrate with Moffin.
 
 We offer the option to access the license through monthly payments.
 
